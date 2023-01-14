@@ -15,6 +15,7 @@ ul{
     max-width: 1440px;
     max-height: 118px;
     margin-top: 32px;
+    
 
 }
 
@@ -58,4 +59,28 @@ ul{
     font-size: 20px;
     line-height: 30px;
     
+}
+
+.right-header{
+    margin-top: 25px;
+    margin-left: 300px;
+   
+    
+}
+
+.btn{
+    padding-left: 30px;
+    background-color: #0075FF;
+    border-radius: 14px ;
+    padding: 17px 24px 19px 24px
+}
+
+.link-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
 }
