@@ -1,3 +1,4 @@
+
 body{
     margin-left: auto;
     margin-bottom: auto;
@@ -11,6 +12,7 @@ a{
 ul{
     list-style: none;
 }
+/*header*/
 .header{
     max-width: 1440px;
     max-height: 118px;
@@ -62,8 +64,8 @@ ul{
 }
 
 .right-header{
-    margin-top: 25px;
-    margin-left: 300px;
+    margin-top: 20px;
+    margin-left: 350px;
    
     
 }
@@ -84,4 +86,32 @@ ul{
     text-align: center;
     color: #FFFFFF;
     margin-left: 20px;
+}
+
+.span-right{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #211F54;
+}
+
+    /*main*/
+
+.container{
+    max-width: 1440px;
+    max-height: 735;
+    
+}
+
+
+.img-back{
+
+    background: url(/img/IMAGE.png)  ;
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 720px;
+    
+
 }
