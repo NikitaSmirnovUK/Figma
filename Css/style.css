@@ -12,6 +12,9 @@ a{
 ul{
     list-style: none;
 }
+
+
+
 /*header*/
 .header{
     max-width: 1440px;
@@ -73,8 +76,9 @@ ul{
 .btn{
     padding-left: 30px;
     background-color: #0075FF;
-    border-radius: 14px ;
-    padding: 17px 24px 19px 24px
+    border-radius: 14px;
+    padding: 17px 24px 19px 24px;
+    border: none;
 }
 
 .link-btn{
@@ -98,6 +102,14 @@ ul{
 }
 
     /*main*/
+
+.back-img {
+    background: url(/img/IMAGE.png) ;
+    background-repeat: no-repeat;
+    background-position: ;
+    width: 720px;
+    height: 720px;;
+}    
 
 .container {
     max-width: 1440px;
@@ -147,13 +159,44 @@ ul{
 .btn-get {
     background-color: #0075FF;
     border-radius: 14px ;
-    padding: 26px 38px 26px 38px;
-    
+    padding: 22px 38px 26px 38px;
+    border: none;
+   
+     
     
     
 }
 
+.section-button {
+    display: flex;
+    margin-top: 34px;
+    
+    
 
+}
 
+.img-icon {
+    margin-left: 28px;
 
+}
 
+.call-us{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #6E7191;
+
+}
+
+.call-number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #211F54;
+}
