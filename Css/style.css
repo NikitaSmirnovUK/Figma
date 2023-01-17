@@ -103,10 +103,10 @@ ul{
 
     /*main*/
 
-.back-img {
+.img-back {
     background: url(/img/IMAGE.png) ;
     background-repeat: no-repeat;
-    background-position: ;
+    background-position:right;
     width: 720px;
     height: 720px;;
 }    
