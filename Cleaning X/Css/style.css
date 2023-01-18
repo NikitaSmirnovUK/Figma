@@ -136,7 +136,7 @@ ul{
 }
 
 
-.text {
+.title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -205,4 +205,86 @@ ul{
 }
 .img-right{
     margin-top: 20px;
+}
+
+
+.sectione-one {
+    margin-top: 250px;
+}
+
+.container-one {
+    width: 1270px;
+    height: 740px;
+    
+}
+
+.title-one {
+margin-left: 450px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #211F54;
+}
+
+.text-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #6E7191;
+    width: 650px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: 530px
+}
+
+.section-image{
+    margin-top: 65px;
+    margin-left: 100px;
+}
+
+.title-two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #211F54;
+    margin-top: 40px;
+}
+
+.text-two {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #6E7191;
+    width: 410px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.section-sec {
+    display: flex;
+    margin-left: 150px;
+    
+}
+
+.item-sec{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.img-center {
+    margin: auto;
 }
