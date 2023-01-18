@@ -1,7 +1,12 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 body{
+
     margin-left: auto;
-    margin-bottom: auto;
+    margin-right: auto;
 }
 
 a{
@@ -41,6 +46,7 @@ ul{
 
 
 .nav-list{
+    margin-top: 12px;
     display: flex;
     margin-left: 50px; 
 }
@@ -67,7 +73,7 @@ ul{
 }
 
 .right-header{
-    margin-top: 20px;
+
     margin-left: 350px;
    
     
@@ -103,46 +109,46 @@ ul{
 
     /*main*/
 
-.img-back {
-    background: url(/img/IMAGE.png) ;
-    background-repeat: no-repeat;
-    background-position:right;
-    width: 720px;
-    height: 720px;;
-}    
 
 .container {
+    display: flex;
     max-width: 1440px;
-    max-height: 735px;
+    
+}
+
+
+.content {
+    
     margin-left: 115px;
 }
 
-.text-size {
-  
-    margin-top: 210px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 68px;
-    line-height: 74px;
-    color: #211F54;
-    width: 520px;
-    height: 150px;
-}
-
-.text-small{
+.text-paragraph {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
     line-height: 30px;
+    width: 590px;
+    height: 90px;
+    margin-top: 20px;
     color: #6E7191;
-    width: 591px;
-    height: 91px;
-    
+
 }
 
-.link-get {
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 74px;
+    width: 520px;
+    height: 150px;
+    margin-top: 200px;
+    color: #211F54;
+}
+
+.btn-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -150,37 +156,31 @@ ul{
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-    
-    
-
-
 }
 
-.btn-get {
+.btn-contact{
     background-color: #0075FF;
-    border-radius: 14px ;
-    padding: 22px 38px 26px 38px;
+    border-radius: 14px;
+    padding: 26px 38px 26px 38px;
     border: none;
-   
-     
-    
-    
 }
 
-.section-button {
+.contacts {
+    margin-top: 30px;
     display: flex;
-    margin-top: 34px;
+    align-items: center;
     
-    
-
 }
 
-.img-icon {
-    margin-left: 28px;
-
+.tel {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  
+    
 }
 
-.call-us{
+.call-us {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -189,14 +189,20 @@ ul{
     letter-spacing: 1.6px;
     text-transform: uppercase;
     color: #6E7191;
-
 }
 
-.call-number {
+.tel-number{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 36px;
     color: #211F54;
+}
+
+.img-icon{
+    margin-left: 20px;
+}
+.img-right{
+    margin-top: 20px;
 }
