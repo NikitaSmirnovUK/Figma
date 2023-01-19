@@ -253,7 +253,7 @@ color: #211F54;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 30px;
     line-height: 58px;
     text-align: center;
     color: #211F54;
@@ -287,4 +287,69 @@ color: #211F54;
 
 .img-center {
     margin: auto;
+}
+
+.button-sec-one {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+   
+}
+
+.btn-one {
+    background: #0075FF;
+    border: none;
+    padding: 26px 38px 26px 38px;
+    border-radius: 14px;
+
+}
+
+.btn-text-one{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn-two {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F6;
+    box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+    border-radius: 14px;
+    padding: 26px 39px 27px 38px;
+    margin-left: 30px;
+}
+
+.line {
+    margin-top: 250px;
+    background: #DCDDEB;
+    border-radius: 0px;
+    width: 1220px;
+    margin-left: 230px;
+}
+
+.section-two{
+    margin-top: 250px;
+}
+
+.container-two {
+    width: 1300px;
+    height: 900px;
+}
+
+.title-three{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #211F54;
+    width: 600px;
+    height: 110px;
+    text-align: center;
 }
