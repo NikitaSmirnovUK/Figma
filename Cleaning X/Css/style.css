@@ -20,8 +20,7 @@ ul{
 p{
     padding: 0;
     margin: 0;
-    margin-block-end: 0px;
-    
+   
 }
 
 /*header*/
@@ -564,7 +563,121 @@ margin-right: 100px;
 }
 
 .container-for{
-   max-width:  1220px;
-max-height: 680px;
+   width:  1220px;
+   height: 680px;
+    margin-top: 240px;
+    margin-left: 110px;
+    background:  no-repeat  url(../img/Group\ 2.png);
+    
 }
 
+.text-flex{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.span-three{
+    margin-top: 140px;
+    margin-left: 550px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.text-write{
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    width:475px;
+    height: 178px;
+    margin-left: 550px;
+    
+   
+}
+
+.text-small{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 475px;
+    height: 91px;
+    margin-left: 550px;
+
+}
+
+.btn-nicer{
+    display: flex;
+    justify-content: right;
+    margin-top: 12px;
+    margin-right: 130px;
+}
+.btn-size-one{
+    background: #0075FF;
+    border-radius: 14px;
+    padding: 26px 38px 26px 38px;
+    border: none;
+    width: 217px;
+    height: 72px;
+    
+}
+
+.btn-text-three{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.img-three{
+   margin-left: 30px;
+   
+}
+
+
+.tel-call{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.call-now{
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.tel-numbers{
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
